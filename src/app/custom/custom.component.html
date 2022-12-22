@@ -1,0 +1,7 @@
+
+
+<button  mat-button *ngFor="let x of icons" class="btn">
+    <a *ngIf="x.active"><i (click)="openDialog()" (click)="getId(x.links)" class="{{x.icons}}"></i></a>
+    <a  class="inactive" *ngIf="!x.active"><i class="{{x.icons}}"></i></a>
+    <span class="badge badge-info" *ngIf="x.count > 1">{{x.count}}</span>
+</button>

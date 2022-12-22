@@ -1,0 +1,4 @@
+
+<!-- <div class="container" *ngFor="let x of allLinks | keyvalue">{{x.key}}:{{x.value}}</div> -->
+
+<div class="container" *ngFor="let x of allLinks | keyvalue; let i=index">{{x.key}} : {{x.value}}</div>

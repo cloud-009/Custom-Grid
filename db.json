@@ -1,0 +1,125 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "City": "Bangalore",
+      "State": "Karnataka",
+      "Date": "02/12/2019",
+      "Details": [
+        {
+          "icons": "fas fa-solid fa-person",
+          "active": true,
+          "links": [
+            {
+            "Google": "www.google.com",
+            "Github": "https://github.com",
+            "Facebook": "www.facebook.com"
+            }
+          ],
+          "count": 3
+        },
+        {
+          "icons": "fa-solid fa-screwdriver-wrench",
+          "active": false,
+          "count": 0
+        },
+        {
+          "icons": "fa-solid fa-couch",
+          "active": false,
+          "count": 0
+        },
+        {
+          "icons": "fa-solid fa-snowflake",
+          "active":true,
+          "links": [
+            {
+            "Google": "www.google.com",
+            "Github": "https://github.com"
+            }
+          ],
+          "count": 2          
+        },
+        {
+          "icons": "fa-solid fa-trash-can",
+          "active": true,
+          "links": [
+            {
+            "Google": "www.google.com",
+            "Github": "https://github.com"
+            }
+          ],
+          "count": 2                 
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "City": "Rajmandri",
+      "State": "Andhra Pradesh",
+      "Date": "10/02/2021",
+      "Details": [
+        {
+          "icons": "fas fa-solid fa-person",
+          "active": true,
+          "count": 2,
+          "links": [
+            {
+            "Google": "www.google.com",
+            "Github": "https://github.com"
+            }
+          ]
+        },
+        {
+          "icons": "fa-solid fa-screwdriver-wrench",
+          "active": true,
+          "links": [
+            {
+            "Google": "www.google.com",
+            "Github": "www.github.com",
+            "Facebook": "www.facebook.com",
+            "Angular": "angular.io"
+          }
+        ],
+          "count": 4
+        },
+        {
+          "icons": "fa-solid fa-couch",
+          "active": false,
+          "count": 0
+        },
+        {
+          "icons": "fa-solid fa-snowflake",
+          "active":true,
+          "links": [
+            {
+            "Google": "www.google.com",
+            "Github": "www.github.com"
+          }
+        ],
+          "count": 2          
+        },
+        {
+          "icons": "fa-solid fa-trash-can",
+          "active": true,
+          "links": [
+            {
+            "Google": "www.google.com",
+            "Github": "www.github.com"
+          }
+        ],
+          "count": 2                 
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
